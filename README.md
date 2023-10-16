@@ -1,6 +1,6 @@
 # vitepress-starter
 
-🚀 VitePress Starter
+🚀 VitePress starter
 
 ## 使用说明
 
