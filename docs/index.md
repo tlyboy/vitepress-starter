@@ -16,7 +16,7 @@ hero:
       text: 在 GitHub 上查看
       link: https://github.com/tlyboy/vitepress-starter
   image:
-    src: /img/logo.webp
+    src: /img/logo.svg
     alt: logo
 
 features:

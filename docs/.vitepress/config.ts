@@ -19,7 +19,7 @@ export default defineConfig({
   },
   title: 'VitePress starter',
   themeConfig: {
-    logo: '/img/logo.webp',
+    logo: '/img/logo.svg',
     siteTitle: 'VitePress starter',
     nav: [
       {
