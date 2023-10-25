@@ -1,4 +1,5 @@
 FROM node:20-alpine
+RUN apk add --no-cache git
 COPY ./ /app
 WORKDIR /app
 RUN corepack enable
