@@ -47,7 +47,7 @@ export default defineConfig({
     },
     editLink: {
       pattern:
-        'https://github.com/tlyboy/vitepress-starter/edit/main/docs/:path',
+        'https://github.com/tlyboy/vitepress-starter/edit/main/src/:path',
       text: '在 GitHub 上编辑此页',
     },
     lastUpdated: {
