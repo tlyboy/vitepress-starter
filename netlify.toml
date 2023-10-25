@@ -2,5 +2,5 @@
   NODE_VERSION = "20"
 
 [build]
-  publish = "docs/.vitepress/dist"
+  publish = ".vitepress/dist"
   command = "pnpm run build"

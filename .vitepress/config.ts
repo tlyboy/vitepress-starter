@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  title: 'VitePress starter',
   description: '🚀 VitePress starter',
   head: [
     [
@@ -12,12 +13,12 @@ export default defineConfig({
     ],
   ],
   lang: 'zh-CN',
+  srcDir: './src',
   lastUpdated: true,
   markdown: {
     theme: 'vitesse-dark',
     lineNumbers: true,
   },
-  title: 'VitePress starter',
   themeConfig: {
     logo: '/img/logo.svg',
     siteTitle: 'VitePress starter',
@@ -31,6 +32,9 @@ export default defineConfig({
         link: '/guide/',
       },
     ],
+    outline: {
+      label: '在本页',
+    },
     socialLinks: [
       {
         icon: 'github',
@@ -42,10 +46,13 @@ export default defineConfig({
       copyright: 'Copyright © 2023-present Guany',
     },
     editLink: {
-      pattern: 'https://github.com/tlyboy/vitepress-starter/edit/main/docs/:path',
+      pattern:
+        'https://github.com/tlyboy/vitepress-starter/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页',
     },
-    lastUpdatedText: '上次更新',
+    lastUpdated: {
+      text: '上次更新',
+    },
     docFooter: {
       prev: '上一页',
       next: '下一页',

@@ -2,7 +2,7 @@
 layout: home
 
 title: VitePress starter
-titleTemplate: Vite 和 Vue 驱动的静态站点
+titleTemplate: false
 
 hero:
   name: VitePress starter

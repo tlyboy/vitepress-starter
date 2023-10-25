@@ -7,5 +7,5 @@ RUN pnpm run build
 
 FROM nginx:stable-alpine
 RUN mkdir /app
-COPY --from=0 /app/docs/.vitepress/dist /app
+COPY --from=0 /app/.vitepress/dist /app
 COPY nginx.conf /etc/nginx/nginx.conf
