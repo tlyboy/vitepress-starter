@@ -3,18 +3,18 @@
   "type": "module",
   "version": "1.0.0",
   "private": true,
-  "packageManager": "pnpm@8.10.2",
+  "packageManager": "pnpm@8.10.5",
   "author": "Guany",
   "license": "MIT",
   "scripts": {
-    "dev": "vitepress",
     "build": "vitepress build",
-    "preview": "vitepress preview",
+    "dev": "vitepress",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "preview": "vitepress preview"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "1.0.0-beta.27",
+    "@antfu/eslint-config": "^1.2.0",
     "eslint": "^8.53.0",
     "typescript": "^5.2.2",
     "vitepress": "1.0.0-rc.22",
