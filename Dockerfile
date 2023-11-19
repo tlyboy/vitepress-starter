@@ -1,12 +1,18 @@
-FROM node:20-alpine
+FROM node:20-alpine as build-stage
+
 RUN apk add --no-cache git
-COPY ./ /app
+
 WORKDIR /app
 RUN corepack enable
-RUN pnpm install
-RUN pnpm run build
 
-FROM caddy
-RUN mkdir /app
-COPY --from=0 /app/.vitepress/dist /app
+COPY package.json pnpm-lock.yaml ./
+RUN --mount=type=cache,id=pnpm-store,target=/root/.pnpm-store \
+    pnpm install --frozen-lockfile
+
+COPY . .
+RUN pnpm build
+
+FROM caddy as production-stage
+
+COPY --from=build-stage /app/.vitepress/dist /app
 COPY Caddyfile /etc/caddy/Caddyfile
