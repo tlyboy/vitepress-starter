@@ -14,10 +14,10 @@
     "preview": "vitepress preview"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^1.2.0",
-    "eslint": "^8.53.0",
-    "typescript": "^5.2.2",
-    "vitepress": "1.0.0-rc.22",
+    "@antfu/eslint-config": "^2.1.0",
+    "eslint": "^8.54.0",
+    "typescript": "^5.3.2",
+    "vitepress": "1.0.0-rc.30",
     "vue": "^3.3.8"
   }
 }
