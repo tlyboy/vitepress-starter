@@ -13,7 +13,6 @@ export default defineConfig({
     ],
   ],
   lang: 'zh-CN',
-  srcDir: './src',
   lastUpdated: true,
   markdown: {
     theme: 'vitesse-dark',

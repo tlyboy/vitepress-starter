@@ -1,4 +1,4 @@
-FROM node:20-alpine as build-stage
+FROM node:18-alpine as build-stage
 
 RUN apk add --no-cache git
 
@@ -14,5 +14,5 @@ RUN pnpm build
 
 FROM caddy as production-stage
 
-COPY --from=build-stage /app/.vitepress/dist /app
+COPY --from=build-stage /app/docs/.vitepress/dist /app
 COPY Caddyfile /etc/caddy/Caddyfile

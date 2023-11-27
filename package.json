@@ -7,11 +7,11 @@
   "author": "Guany",
   "license": "MIT",
   "scripts": {
-    "build": "vitepress build",
-    "dev": "vitepress",
+    "build": "vitepress build docs",
+    "dev": "vitepress dev docs",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "preview": "vitepress preview"
+    "preview": "vitepress preview docs"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.1.0",
