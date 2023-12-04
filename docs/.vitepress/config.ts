@@ -15,7 +15,10 @@ export default defineConfig({
   lang: 'zh-CN',
   lastUpdated: true,
   markdown: {
-    theme: 'vitesse-dark',
+    theme: {
+      light: 'vitesse-light',
+      dark: 'vitesse-dark',
+    },
     lineNumbers: true,
   },
   themeConfig: {
