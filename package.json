@@ -3,7 +3,7 @@
   "type": "module",
   "version": "1.0.0",
   "private": true,
-  "packageManager": "pnpm@8.14.0",
+  "packageManager": "pnpm@8.15.2",
   "author": "Guany",
   "license": "MIT",
   "scripts": {
@@ -14,10 +14,10 @@
     "preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.6.1",
+    "@antfu/eslint-config": "^2.6.4",
     "eslint": "^8.56.0",
     "typescript": "^5.3.3",
-    "vitepress": "1.0.0-rc.30",
-    "vue": "^3.4.5"
+    "vitepress": "1.0.0-rc.42",
+    "vue": "^3.4.18"
   }
 }
