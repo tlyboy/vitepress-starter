@@ -1,25 +1,20 @@
 {
   "name": "vitepress-starter",
-  "type": "module",
   "version": "1.0.0",
   "private": true,
-  "packageManager": "pnpm@8.15.3",
-  "author": "Guany",
   "license": "MIT",
+  "author": "Guany",
+  "type": "module",
   "scripts": {
     "build": "vitepress build docs",
     "dev": "vitepress dev docs",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
     "preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.6.4",
-    "eslint": "npm:eslint-ts-patch@8.56.0-0",
-    "eslint-plugin-format": "^0.1.0",
-    "eslint-ts-patch": "8.56.0-0",
+    "prettier": "^3.2.5",
     "typescript": "^5.3.3",
-    "vitepress": "1.0.0-rc.42",
-    "vue": "^3.4.19"
-  }
+    "vitepress": "1.0.0-rc.44",
+    "vue": "^3.4.20"
+  },
+  "packageManager": "pnpm@8.15.4"
 }
