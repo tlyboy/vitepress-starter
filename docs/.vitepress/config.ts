@@ -35,7 +35,7 @@ export default defineConfig({
       },
     ],
     outline: {
-      label: '在本页',
+      label: '页面导航',
     },
     socialLinks: [
       {
@@ -44,23 +44,25 @@ export default defineConfig({
       },
     ],
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2023-present Guany',
+      message: '基于 MIT 许可发布',
+      copyright: '版权所有 © 2023-present Guany',
     },
     editLink: {
       pattern:
         'https://github.com/tlyboy/vitepress-starter/edit/main/src/:path',
-      text: '在 GitHub 上编辑此页',
+      text: '在 GitHub 上编辑此页面',
     },
     lastUpdated: {
-      text: '上次更新',
+      text: '最后更新于',
     },
     docFooter: {
       prev: '上一页',
       next: '下一页',
     },
-    darkModeSwitchLabel: '外观',
+    darkModeSwitchLabel: '主题',
+    lightModeSwitchTitle: '切换到浅色模式',
+    darkModeSwitchTitle: '切换到深色模式',
     sidebarMenuLabel: '菜单',
-    returnToTopLabel: '返回顶部',
+    returnToTopLabel: '回到顶部',
   },
 })
