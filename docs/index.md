@@ -10,8 +10,8 @@ hero:
   tagline: 简单、强大、快速。就是你想要的现代 SSG 站点！
   actions:
     - theme: brand
-      text: 文档简介
-      link: /guide/
+      text: 快速开始
+      link: /guide/getting-started
     - theme: alt
       text: GitHub
       link: https://github.com/tlyboy/vitepress-starter

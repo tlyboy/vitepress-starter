@@ -30,8 +30,8 @@ export default defineConfig({
         link: '/',
       },
       {
-        text: '文档简介',
-        link: '/guide/',
+        text: '指南',
+        link: '/guide/getting-started',
       },
     ],
     outline: {
