@@ -7,7 +7,7 @@ titleTemplate: false
 hero:
   name: VitePress starter
   text: 由 Vite 和 Vue 驱动的静态站点
-  tagline: 简单、强大、快速。就是你想要的现代 SSG 站点！
+  tagline: 将 Markdown 变成优雅的文档，只需几分钟
   actions:
     - theme: brand
       text: 快速开始
