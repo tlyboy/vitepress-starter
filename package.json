@@ -16,5 +16,8 @@
     "vitepress": "1.0.1",
     "vue": "^3.4.21"
   },
-  "packageManager": "pnpm@8.15.5"
+  "packageManager": "pnpm@8.15.5",
+  "engines": {
+    "node": "20.x"
+  }
 }
