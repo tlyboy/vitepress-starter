@@ -26,14 +26,27 @@ export default defineConfig({
     siteTitle: 'VitePress starter',
     nav: [
       {
-        text: '首页',
-        link: '/',
-      },
-      {
         text: '指南',
         link: '/guide/getting-started',
       },
     ],
+    sidebar: {
+      '/guide/': {
+        base: '/guide/',
+        items: [
+          {
+            text: '指南',
+            collapsed: false,
+            items: [
+              {
+                text: '简介',
+                link: 'getting-started',
+              },
+            ],
+          },
+        ],
+      },
+    },
     outline: {
       label: '页面导航',
     },

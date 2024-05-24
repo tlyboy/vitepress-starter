@@ -1,4 +1,4 @@
-# 快速开始
+# vitepress-starter
 
 🚀 VitePress starter
 
@@ -7,3 +7,7 @@
 ```sh
 npx degit tlyboy/vitepress-starter my-new-project
 ```
+
+## 使用许可
+
+[MIT](https://opensource.org/licenses/MIT) © Guany
