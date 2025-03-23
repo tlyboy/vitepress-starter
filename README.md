@@ -48,6 +48,16 @@ pnpm build
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/tlyboy/vitepress-starter)
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/tlyboy/vitepress-starter)
 
+### Vercel 环境变量配置
+
+在 Vercel 部署时，需要配置以下环境变量：
+
+| 环境变量                     | 值  |
+| ---------------------------- | --- |
+| ENABLE_EXPERIMENTAL_COREPACK | 1   |
+
+你可以在 Vercel 项目设置的 Environment Variables 部分进行配置。
+
 ## 使用许可
 
 [MIT](https://opensource.org/licenses/MIT) © Guany
