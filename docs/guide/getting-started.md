@@ -72,7 +72,7 @@ cd vitepress-starter
 docker compose up -d
 ```
 
-服务将在 http://localhost:80 启动。
+服务将在 `http://localhost:80` 启动。
 
 ## 使用许可
 
