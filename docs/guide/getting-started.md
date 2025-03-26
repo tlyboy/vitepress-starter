@@ -6,7 +6,7 @@
 
 - 📦 开箱即用的 VitePress 配置
 - 🎨 使用 Vue 3 + TypeScript 开发
-- 🚀 快速部署到 Vercel/Netlify
+- 🚀 快速部署到 Netlify/Vercel/Docker
 - 📱 响应式设计，支持移动端访问
 
 ## 快速开始
@@ -45,8 +45,9 @@ pnpm build
 
 本项目支持一键部署到以下平台：
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/tlyboy/vitepress-starter)
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/tlyboy/vitepress-starter)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/tlyboy/vitepress-starter)
 
 ### Vercel 环境变量配置
 
@@ -57,6 +58,21 @@ pnpm build
 | ENABLE_EXPERIMENTAL_COREPACK | 1   |
 
 你可以在 Vercel 项目设置的 Environment Variables 部分进行配置。
+
+### Docker 部署
+
+使用 Docker 和 Docker Compose 快速部署：
+
+```bash
+# 克隆项目
+git clone https://github.com/tlyboy/vitepress-starter.git
+cd vitepress-starter
+
+# 使用 Docker Compose 启动
+docker compose up -d
+```
+
+服务将在 http://localhost:80 启动。
 
 ## 使用许可
 
