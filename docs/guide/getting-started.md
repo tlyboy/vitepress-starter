@@ -43,11 +43,11 @@ pnpm build
 
 ## 部署
 
-本项目支持一键部署到以下平台：
+### Netlify 部署
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/tlyboy/vitepress-starter)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/tlyboy/vitepress-starter)
+1. 将项目推送到 GitHub 仓库
+2. 在 Netlify 中导入该仓库
+3. 点击 "Deploy site" 开始部署
 
 ### Vercel 环境变量配置
 
