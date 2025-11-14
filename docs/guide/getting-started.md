@@ -38,7 +38,7 @@ pnpm build
 
 ## 环境要求
 
-- Node.js 22.x
+- Node.js 24.x
 - pnpm 10.6.2+
 
 ## 部署
